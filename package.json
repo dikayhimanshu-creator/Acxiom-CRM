@@ -1,0 +1,19 @@
+{
+  "name": "acxiomcrm",
+  "version": "1.0.0",
+  "description": "Beginner-friendly full-stack CRM demo using Express and SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
